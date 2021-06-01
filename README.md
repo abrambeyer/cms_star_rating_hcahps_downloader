@@ -1,0 +1,2 @@
+# cms_star_rating_hcahps_downloader
+This project collects and wrangles all archived HCAHPS - Hospital.csv and Hospital General Information.csv files from cms.gov (Centers for Medicare and Medicaid Services).  The resulting datasets will be a left join of the general information and hcahps data so we can have a comparison of overall cms star rating and hcahps survey results.  The file creates one csv file for each year on the archive site excluding 2014 and 2015.
