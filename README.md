@@ -7,7 +7,7 @@ The data is made available by *[CMS.gov](https://www.cms.gov/Medicare/Quality-In
 
 Hospital Compare provides data on over 4,000 Medicare-certified hospitals, including acute care hospitals, critical access hospitals (CAHs), children’s hospitals, Veterans Health Administration (VHA) Medical Centers, and hospital outpatient departments.
 
-* NOTE: *  The final output is writtent to csv file.  However, the hospital's facility ID should be read in as a string due to some facilities having a leading zero in their facility ID.
+***NOTE:   The final output is writtent to csv file.  However, the hospital's facility ID should be read in as a string due to some facilities having a leading zero in their facility ID.***
 
 
 # Python Project Folder: cms_star_rating_hcahps_gather
