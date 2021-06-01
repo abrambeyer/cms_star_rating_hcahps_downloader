@@ -1,0 +1,11 @@
+https://hcahpsonline.org/en/hcahps-star-ratings/
+
+https://www.medicare.gov/care-compare/?providerType=Hospital&redirect=true#search
+
+https://data.cms.gov/provider-data/archived-data/hospitals
+
+
+DDB Data Dictionary ("Hospital pdf")  pg. 9:  Description of Hospital General Information file
+
+"Hospital pdf"  pg. 5:  Introduction and statment about public access/attribution
+

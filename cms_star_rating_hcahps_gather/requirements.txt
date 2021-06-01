@@ -1,0 +1,44 @@
+
+Chrome Driver for Selenium version included in project  
+(You may need to download a different driver that works with your version of Chrome  
+https://chromedriver.chromium.org/downloads):
+
+Version 90.0.4430.212 (Official Build) (64-bit)
+
+
+Packages:
+
+#Import necessary packages
+
+#for controlling the browser.
+#Using selenium for webscraping in order to generate javascript-generate webpage
+#elements.
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.support import expected_conditions
+from selenium.common.exceptions import StaleElementReferenceException
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
+#for working with zipped files
+import zipfile
+#for putting data into easy dataframe format
+import pandas as pd
+#for requesting url data.  Get requests.
+import requests
+#for wrangling web data.
+from bs4 import BeautifulSoup
+#For working with urls
+from urllib.parse import urljoin
+#for working with operating systems, files, folders, etc.
+import os
+#for working with the zipped file from url
+import io
+
+# offers classes representing filesystem paths.  Used to help navigte project folder
+# to locate the driver file.
+import pathlib
+#used to pause a bit after loading the webpage to ensure all javascript elements render
+import time
+#convert year string to datetime year
+from datetime import datetime
